@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4685256 */
+  src: url('//at.alicdn.com/t/c/font_4685256_wwgtkmqymxm.woff2?t=1726900221511') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4685256_wwgtkmqymxm.woff?t=1726900221511') format('woff'),
+       url('//at.alicdn.com/t/c/font_4685256_wwgtkmqymxm.ttf?t=1726900221511') format('truetype');
+}
+@font-face {
+  font-family: "PingFang SC Regular";
+  src: url("https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.eot");
+  src: url("https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/2e8b8a5bb209daf0c8dd2f3a94c2b4e8.svg#PingFang SC Regular")format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: .16rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

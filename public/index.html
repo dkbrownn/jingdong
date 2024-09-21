@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link href="https://db.onlinewebfonts.com/c/2e8b8a5bb209daf0c8dd2f3a94c2b4e8?family=PingFang+SC+Regular" rel="stylesheet">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script>
+      var width = document.documentElement.clientWidth || document.body
+      var ratio =  width / 375;
+      var fontSize = 100 * ratio
+      document.getElementsByTagName('html')[0].style['font-size'] = fontSize + 'px'
+    </script>
   </head>
   <body>
     <noscript>
